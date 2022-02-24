@@ -28,7 +28,7 @@ void setup() {
   PORTD |= (1 << 2) | (1 << 0);
   PORTL |= (1 << 0);
   PORTA |= (1 << 0);
-  PORTE |= (1 << 3) | (1 << 5);
+  PORTE |= (1 << 3) | (1 << 5); // relay pins (3,5)
   Serial.begin(9600); SPI.begin(); rfid.PCD_Init();
   attachInterrupt(digitalPinToInterrupt(PINA), isr, LOW);
   attachInterrupt(digitalPinToInterrupt(21), kesme, LOW);
