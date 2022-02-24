@@ -16,7 +16,7 @@ int  lastVolume = 0, lastCount = 0, lastkota = 0, lastsifre = 0, volume = 0, sif
 uint8_t pencere = 1, menuoption = 1, sub = 0, cursorline = 0;
 char *isim;
 
-byte ethem[4] = {16, 233, 144, 47};
+byte ethem[4] = {16, 233, 144, 47}; // you can increase the number of users, here ı have one.
 
 void setup() {
   DDRA &= ~((1 << DDA2) | (1 << DDA0));
