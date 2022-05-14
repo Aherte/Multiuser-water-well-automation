@@ -5,6 +5,8 @@ I used Rep Rams 1.4 Compatible LCD Display Kit that consist a 20x4 display to sh
 
 I shared pictures of each component ı used. Also, ı added libraries ı used for this project.
 
+![Uploading Screenshot_2022-05-14-16-56-31-303_com.instagram.android~2.jpg…]()
+
 
 ## about 2 small relays turn on and off a 3 phase motor, connections to contactor.
 
